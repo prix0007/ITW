@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lab9</string>
+    <string name="display">List View Array Adapter Example</string>
+</resources>
