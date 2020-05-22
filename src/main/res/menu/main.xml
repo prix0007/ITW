@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/DisplayStudent"
+        android:title="Display Student"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/GradeCalculator"
+        android:title="Grade Calculator"
+        android:orderInCategory="102"
+        />
+    <item android:id="@+id/AttendanceRecord"
+        android:title="Attendance Record"
+        android:orderInCategory="101"
+        />
+    <item android:id="@+id/InsertRecord"
+        android:title="Insert Student"
+        android:orderInCategory="104"
+        />
+    <item android:id="@+id/Exit"
+        android:title="Exit"
+        android:orderInCategory="105"
+        />
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    tools:context=".SubjectMark"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/subname"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="Subject :"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/om"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:hint="Obtained Mks"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="/"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/mm"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:hint="MM"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/subjectPush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Subject Marks" />
+
+
+</LinearLayout>
