@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BirthDates</string>
+    <string name="name">Please Enter Person Name</string>
+    <string name="bdate">Please Enter Date of Birth</string>
+    <string name="add">ADD RECORD</string>
+    <string name="delete">DELETE RECORD</string>
+    <string name="update">UPDATE RECORD</string>
+    <string name="show">SHOW RECORD</string>
+    <string name="txt_display">Records from database are Displayed here</string>
+    <string name="showList">List View Display</string>
+    <string name="listTitle">List of Date of Birth of Dear Ones</string>
+</resources>
